@@ -64,7 +64,7 @@ var orm = {
     var queryString = "UPDATE " + table;
 
     queryString += " SET ";
-    queryString += objToSql(objColVals);
+    queryString += " yum = 1";
     queryString += " WHERE ";
     queryString += condition;
 
@@ -75,6 +75,15 @@ var orm = {
       }
 
       cb(result);
+    });
+  },
+
+  delete: function(sql) {
+    var sql = "DELETE FROM burgers WHERE yum = 1;"
+    if (err) throw err;
+    con.query(sql, function (err, result) {
+      if (err) throw err;
+      console.log("deleted: " + result.affectedRows);
     });
   }
 };
