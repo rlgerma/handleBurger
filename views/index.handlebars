@@ -1,6 +1,6 @@
 <h1>BBBBBBurgers!</h1>
 
-<h2>Burgers You Wouldn't Even Feed To Your Dog!</h2>
+<h2>Burgers to be eaten</h2>
 
 <ul>
   {{#each burgers}}
@@ -10,7 +10,7 @@
   {{/each}}
 </ul>
 
-<h2>Burgers That Are Great!</h2>
+<h2>Burgers That I Will Try</h2>
 
 <ul>
   {{#each burgers}}
@@ -28,11 +28,11 @@
     <input type="text" id="ca" name="name">
   </div>
 
-  {{!-- <div class="form-group">
-    <label for="yum">Yum?</label><br>
-    <input type="radio" name="yum" value="1" checked> Yum!<br>
-    <input type="radio" name="yum" value="0"> Gross
-  </div> --}}
+  <div class="form-group">
+    <label for="yum"></label><br>
+    {{!-- <input type="radio" name="yum" value="1" checked> Yum!<br>
+    <input type="radio" name="yum" value="0"> Gross --}}
+  </div>
 
   <button type="submit">Add burger</button>
 </form>
