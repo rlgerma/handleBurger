@@ -1,0 +1,91 @@
+/* a lot to do here. */
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background-color: whitesmoke;
+  font-family: basic-sans, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  -webkit-animation-name: form;
+  -webkit-animation-duration: 2.5s;
+}
+
+body {
+  background-image: url("./bg.png");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+strong{
+ color:black;  
+}
+
+strong:hover{
+  color: firebrick;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+.hide{
+  visibility: hidden;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-form {
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  width: 100%;
+  -webkit-animation-name: form;
+  -webkit-animation-duration: 2s;
+
+}
+
+.container-left{
+  float: left;
+  margin-top:16%;
+  margin-left:5%;
+  width:25%;
+}
+
+.container-right{
+  float: left;
+  margin-top:16%;
+  margin-left:40%;
+  width:25%;
+}
+
+.container-bottom{
+  float: left;
+  /* margin-top:5%; */
+  margin-left:25%;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  font-family: basic-sans,sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size:40px;
+  background-color: antiquewhite;
+  -webkit-animation-name: form;
+  -webkit-animation-duration: 3s;
+
+}
+.boxtitle {
+  font-family: basic-sans,sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size:40px;
+  background-color: antiquewhite;
+  width: 100%;
+}
+
+@keyframes form{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
