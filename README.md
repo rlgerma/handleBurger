@@ -1,4 +1,6 @@
-# handleBurger
+![bb](https://github.com/rlgerma92/handleBurger/blob/master/bb.png)
+
+# Burger Buddy
 
 
 Yet to be done 
