@@ -1,5 +1,5 @@
 var express = require("express");
-
+var path = require("path");
 var router = express.Router();
 
 // Import the model (burger.js)
@@ -14,6 +14,7 @@ router.get("/", function(req, res) {
     console.log(burgObj);
     res.render("index", burgObj);
   });
+  res.sendFile(path.join(__dirname, "path"));
 });
 
 router.post("/api/burgers", function(req, res) {
