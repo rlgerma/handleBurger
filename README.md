@@ -2,11 +2,24 @@
 
 # Burger Buddy
 
+A webapp for storing your most carnivorous desires that exist between a bun. 
 
-Yet to be done 
+Enter your meaty(or meat-less) goals in the form box. When the goal is met, come back and let Burger Buddy know you "DEVOURED IT" so your
+efforts can be logged till the end of time (or whenever any of my free licenses expire).
 
-- styling to reflect burgers eaten and list of burgers to be eaten.
 
-- deploy to heroku and configure .gitignore settings
+Resources Used
+-Handlebars
+-Node
+-MySql
+-Jaws_DB
+-Adobe Fonts/Spark for graphics
+-An ambitious appetite
 
-- change button operators to move un ordered list to ordered (devoured) list
+**Future releases:
+
+-clear entries button added on front end
+
+-more dynamic animations/refined UI
+
+-feedback links
