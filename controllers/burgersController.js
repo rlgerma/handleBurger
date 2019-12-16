@@ -14,7 +14,6 @@ router.get("/", function(req, res) {
     console.log(burgObj);
     res.render("index", burgObj);
   });
-  res.sendFile(path.join(__dirname, "path"));
 });
 
 router.post("/api/burgers", function(req, res) {
