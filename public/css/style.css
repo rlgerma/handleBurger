@@ -16,6 +16,8 @@ body {
   background-attachment: fixed;
   background-size: 100% 100%;
   text-align: center;
+  -webkit-animation-name: form;
+  -webkit-animation-duration: 3s;
 }
 
 strong{
@@ -40,6 +42,9 @@ strong:hover{
   margin: 5px;
   text-align: center;
   width: 100%;
+  font-family: basic-sans,sans-serif;
+  font-weight: 700;
+  font-size: 24px;
   -webkit-animation-name: form;
   -webkit-animation-duration: 2s;
 
