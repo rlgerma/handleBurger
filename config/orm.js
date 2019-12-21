@@ -30,6 +30,14 @@ function objToSql(ob) {
 }
 
 var orm = {
+  // refresh: function(domLoad, cb){
+  //   var refreshDb = "DROP TABLE burgers;" + "CREATE TABLE burgers;";
+  //   connection(refreshDb, function(err, res){
+  //     if(err) throw err;
+  //     cb(res)
+  //   });
+  // },
+
   all: function(tableInput, cb) {
     var queryString = "SELECT * FROM " + tableInput + ";";
     connection.query(queryString, function(err, result) {
@@ -55,7 +63,6 @@ var orm = {
       if (err) {
         throw err;
       }
-
       cb(result);
     });
   },
@@ -73,7 +80,6 @@ var orm = {
       if (err) {
         throw err;
       }
-
       cb(result);
     });
   },
